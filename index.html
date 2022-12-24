@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+        <script src="./js/Poster.js"></script>
+    </head>
+
+    <body>
+<a-scene id="main-scene">
+
+    <a-sky id="main-container" radius="5000" color="#98DAFC">
+
+    </a-sky>
+
+    <a-entity id="book-container" Poster></a-entity>
+
+    <a-camera id="camera" wasd-controls="enabaled:false">
+<a-entity id="app-title"
+position="0 0.73 -1"
+text="font:exo2bold; width:3, align:center; color:#000; value:Virtual Comic Store!"
+>
+
+</a-entity>
+
+<a-entity id="app-subtitile"
+position="0 -0.1 0"
+text="font: dejavu; align: center; width: 1; color: #0F184E; value: Get your favourite comics"
+>
+
+</a-entity>
+
+
+
+    </a-camera>
+</a-scene>
+    </body>
+</html>
