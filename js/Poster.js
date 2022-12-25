@@ -1,4 +1,4 @@
-AFRAME.registerComponent("Poster",{
+AFRAME.registerComponent("poster",{
     init: function(){
         this.bookContainer = this.el;
         this.createCards()
@@ -37,7 +37,7 @@ AFRAME.registerComponent("Poster",{
 
             previousXposition = posX
 
-            const borderEl = this.createBorder(position,item.id)
+            const borderEl = this.createBorders(position,item.id)
       // Thumbnail Element
      const thumbEl = this.createThumbnail(item)
      borderEl.appendChild(thumbEl)
@@ -46,7 +46,7 @@ AFRAME.registerComponent("Poster",{
       borderEl.appendChild(titleEl)
 
 
-      this.placesContainer.appendChild(borderEl);
+      this.bookContainer.appendChild(borderEl);
         }
 
 
