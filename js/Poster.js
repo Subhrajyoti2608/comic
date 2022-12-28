@@ -8,7 +8,7 @@ AFRAME.registerComponent("poster",{
             {
                 id:"feluda-indrajal-rahasya",
                 title:"Indrajal Rahasya",
-                url:"https://rukminim1.flixcart.com/image/416/416/k55n0y80/regionalbooks/7/r/r/feluda-indrajal-rahasya-comics-original-imafnwkb6shzz9tg.jpeg?q=70"
+                url:"./assets/thumbnails/indrajal.png"
             },
             {
                 id:"feluda-gangtok",
@@ -17,8 +17,8 @@ AFRAME.registerComponent("poster",{
             },
             {
                 id:"professor-shanku",
-                title:"The Mystrey Of U.F.O",
-                url:""
+                title:"Mystrey Of Bird",
+                url:"https://boichitro.in/wp-content/uploads/2021/07/original1.1791321.1.jpg"
             },
             {
                 id:"shanku-ekshringo",

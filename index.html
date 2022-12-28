@@ -4,6 +4,7 @@
         <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
         <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
         <script src="./js/Poster.js"></script>
+        <script src="./js/cursor.js"></script>
     </head>
 
     <body>
@@ -13,9 +14,11 @@
 
     </a-sky>
 
-    <a-entity id="book-container" poster></a-entity>
+    <a-entity id="book-container" poster cursor-listener></a-entity>
 
     <a-camera id="camera" wasd-controls="enabaled:false">
+
+
 <a-entity id="app-title"
 position="0 0.73 -1"
 text="font:exo2bold; width:3, align:center; color:#000; value:Virtual Comic Store!"
@@ -28,9 +31,11 @@ position="0 -0.1 0"
 text="font: dejavu; align: center; width: 1; color: #0F184E; value: Get your favourite comics"
 >
 
+</a-entity id="camera-cursor" cursor position="0 0 -1" material="color:white; shader:flat" geometry="primitive:ring; radiusOuter:0.02; radiusInner: 0.02">
+
+<a-entity>
+
 </a-entity>
-
-
 
     </a-camera>
 </a-scene>
